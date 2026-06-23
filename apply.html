@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hot Beans</title>
+    <link rel="stylesheet" href="styles.css"/>
+	<link rel="stylesheet" href="apply.css" />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="/" id="navbar__logo"><i class="fas fa-gem"></i>Hot Beans</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="index.html" class="navbar__links">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="group.html" class="navbar__links">Team</a>
+          </li>
+          <li class="navbar__item">
+            <a href="jd.html" class="navbar__links">Job Description</a>
+          </li>
+          <li class="navbar__item">
+            <a href="courses.html" class="navbar__links">Course</a>
+          </li>
+          <li class="navbar__btn"><a href="apply.html" class="button">Apply</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="course">
+      <div class="course-info">
+        <h2>&nbsp;</h2>
+        <h2>Apply</h2>
+        <p>&nbsp;</p>
+        <p>Text .......</p>
+        <p>&nbsp;</p>
+		<form>
+    <div class="form-group">
+      <label for="first-name">First Name:</label>
+      <input type="text" id="first-name" name="first-name" required />
+    </div>
+
+    <div class="form-group">
+      <label for="last-name">Last Name:</label>
+      <input type="text" id="last-name" name="last-name" required />
+    </div>
+
+    <div class="form-group">
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required />
+    </div>
+
+    <div class="form-group">
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" required></textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required />
+    </div>
+
+    <div class="form-group">
+      <label for="job-title">Job Title:</label>
+      <select id="job-title" name="job-title" required>
+        <option value="">Select a job title</option>
+        <option value="Software Developer">Software Developer</option>
+        <option value="Graphic Designer">Graphic Designer</option>
+        <option value="Data Analyst">Data Analyst</option>
+        <option value="Marketing Specialist">Marketing Specialist</option>
+      </select>
+    </div>
+
+    <button type="submit">Submit</button>
+  </form>
+      </div>
+    </div>
+    
+    <div class="course"></div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Contact Us</h2>
+            <a href="/">Contact</a> <a href="/">Support</a>
+            <a href="/">Destinations</a> <a href="/">Sponsorships</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Videos</h2>
+            <a href="/">Submit Video</a> <a href="/">Ambassadors</a>
+            <a href="/">Agency</a> <a href="/">Influencer</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Social Media</h2>
+            <a href="/">Instagram</a> <a href="/">Facebook</a>
+            <a href="/">Youtube</a> <a href="/">Twitter</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
